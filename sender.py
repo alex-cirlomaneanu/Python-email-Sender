@@ -45,7 +45,7 @@ for i in range(len(emails)):
 
     # Create the message
     msg = MIMEMultipart()
-    # Adding the subject, sender and reciever
+    # Adding the subject, sender and receiver
     msg['Subject'] = "Test"
     msg['From'] = sender
     msg['To'] = email
